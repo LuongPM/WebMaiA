@@ -1,0 +1,33 @@
+2022-09-05T03:11:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_user_profile_fields" not found or invalid function name in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\plugin.php(476): WP_Hook->do_action()
+#2 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-admin\user-edit.php(847): do_action()
+#3 {main}
+  thrown in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php on line 307
+
+2022-09-05T03:13:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_user_profile_fields" not found or invalid function name in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\plugin.php(476): WP_Hook->do_action()
+#2 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-admin\user-edit.php(847): do_action()
+#3 {main}
+  thrown in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php on line 307
+
+2022-09-05T03:16:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "custom_user_profile_fields" not found or invalid function name in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\plugin.php(476): WP_Hook->do_action()
+#2 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-admin\user-edit.php(838): do_action()
+#3 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-admin\profile.php(18): require_once('...')
+#4 {main}
+  thrown in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\class-wp-hook.php on line 307
+
+2022-09-05T03:36:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_role_caps() in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-content\themes\maitech\index.php:394
+Stack trace:
+#0 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-includes\template-loader.php(106): include()
+#1 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-blog-header.php(19): require_once('...')
+#2 C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\index.php(17): require('...')
+#3 {main}
+  thrown in C:\10. WORKING\0. MaiA\0. Web MaiA\Publish\wp-content\themes\maitech\index.php on line 394
+
